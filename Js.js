@@ -1,3 +1,4 @@
+
 function Ins(){
     window.location.href='https://www.instagram.com/frc7130_future_shock/'
 }
@@ -6,4 +7,11 @@ function FB(){
 }
 function YT(){
     window.location.href='https://www.youtube.com/channel/UCrr_gyEFzddEHeuWRg1fU7Q/featured'
+}
+function copyToClipBoard() {
+
+    var content = document.getElementById('textArea');
+    
+    content.select();
+    document.execCommand('copy');
 }
